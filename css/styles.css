@@ -1,0 +1,147 @@
+body{
+  padding:0;
+  margin:0;
+  color:white;
+ background-size: cover;
+}
+
+.navbar-header{
+float:center;
+background-color:white;
+background-size: cover;
+padding-top: 2%;
+padding-bottom: 2%;
+margin:auto;
+min-height: 8%;
+max-width: 90%;
+box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.25);
+}
+.datepicker-start{
+position:initial;
+width: 10%;
+height: inherit;
+float:center;
+margin-left:40%;
+}
+.datepicker-end{
+position:initial;
+width: 10%;
+height: inherit;
+float:center;
+margin-left:40%;
+}
+.container {
+  width: 30%;
+  position: relative;
+
+}
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+     
+}
+
+
+.card .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    
+}
+
+.card .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.card .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -80px;
+    height: 40px;
+    
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+.card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25),
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+    background: rgba(0,0,0,.2);
+}
+
+.title-white {
+    color: white;
+}
+
+.title-black {
+    color: black;
+}
+
+@media all and (max-width: 500px) {
+    .card-list {
+        /* On small screens, we are no longer using row direction but column */
+        flex-direction: column;
+    }
+}
+
+
+button{
+    background-color:white;
+    color:black;
+    padding:15px;
+    margin-left:40%;
+    border: 2px solid yellow;
+    border-radius: 40px;
+    opacity: 0.3;
+    box-shadow: 3px 3px 7px yellow;
+    width:15%;
+    height: 8%;
+    text-align: center;
+    font-weight: 800;
+}
+button:hover{
+    opacity: 0.9;
+    box-shadow: -2px 2px 3px yellow;
+  }
